@@ -183,8 +183,9 @@ named after the string \"*shell*\" using `generate-new-buffer-name'."
 ;; end ENSIME
 
 (add-to-list 'load-path
-             "~/.emacs.d/custom/emacs-color-theme-solarized")
+             "~/.emacs.d/color-themes/emacs-color-theme-solarized")
 (require 'color-theme-solarized)
+(load-file "~/.emacs.d/color-themes/color-theme-blackboard.el")
 
 ;(add-hook 'org-mode-hook
 ;          #'(lambda ()
