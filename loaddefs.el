@@ -16,21 +16,6 @@ color (#rrrrggggbbbb).
 
 ;;;***
 
-;;;### (autoloads (espresso-mode) "espresso" "elpa-to-submit/espresso.el"
-;;;;;;  (20070 17255))
-;;; Generated autoloads from elpa-to-submit/espresso.el
-
-(autoload 'espresso-mode "espresso" "\
-Major mode for editing JavaScript source text.
-
-Key bindings:
-
-\\{espresso-mode-map}
-
-\(fn)" t nil)
-
-;;;***
-
 ;;;### (autoloads (htmlize-many-files-dired htmlize-many-files htmlize-file
 ;;;;;;  htmlize-region htmlize-buffer) "htmlize" "elpa-to-submit/htmlize.el"
 ;;;;;;  (20070 17255))
@@ -121,27 +106,6 @@ Major mode for editing Markdown files.
 (add-to-list 'auto-mode-alist '("\\.markdown$" . markdown-mode))
 
 (add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
-
-;;;***
-
-;;;### (autoloads (moz-minor-mode) "moz" "elpa-to-submit/moz.el"
-;;;;;;  (20070 17255))
-;;; Generated autoloads from elpa-to-submit/moz.el
-
-(autoload 'moz-minor-mode "moz" "\
-Toggle Mozilla mode.
-With no argument, this command toggles the mode.
-Non-null prefix argument turns on the mode.
-Null prefix argument turns off the mode.
-
-When Mozilla mode is enabled, some commands become available to
-send current code area (as understood by c-mark-function) or
-region or buffer to an inferior mozilla process (which will be
-started as needed).
-
-\(fn &optional ARG)" t nil)
-
-(eval-after-load 'js2-mode '(add-hook 'js2-mode-hook 'moz-minor-mode))
 
 ;;;***
 

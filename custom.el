@@ -148,13 +148,13 @@ named after the string \"*shell*\" using `generate-new-buffer-name'."
     (car shell-buffer-list))))
     (shell name)))
 
-(defun my-espresso-mode-hook ()
-  (require 'espresso)
-  (setq espresso-indent-level 2
-        indent-tabs-mode nil
-        c-basic-offset 2))
+;;(defun my-espresso-mode-hook ()
+;;  (require 'espresso)
+;;  (setq espresso-indent-level 2
+;;        indent-tabs-mode nil
+;;        c-basic-offset 2))
 
-(add-hook 'espresso-mode-hook 'my-espresso-mode-hook)
+;;(add-hook 'espresso-mode-hook 'my-espresso-mode-hook)
 
 ;; Scala Mode
 (add-to-list 'load-path "~/.emacs.d/custom/scala-mode")
@@ -190,5 +190,7 @@ named after the string \"*shell*\" using `generate-new-buffer-name'."
 ;(add-hook 'org-mode-hook
 ;          #'(lambda ()
 ;              (local-set-key [tab] 'yas/expand)))
+
+(load-file "~/.emacs.d/custom/javascript.el")
 
 (server-start)
