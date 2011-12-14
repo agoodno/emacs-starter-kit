@@ -192,5 +192,9 @@ named after the string \"*shell*\" using `generate-new-buffer-name'."
 ;              (local-set-key [tab] 'yas/expand)))
 
 (load-file "~/.emacs.d/custom/javascript.el")
+(load-file "~/.emacs.d/custom/bar-cursor.el")
+
+(require 'bar-cursor)
+(bar-cursor-mode 1)
 
 (server-start)
