@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (erc-handle-irc-url erc erc-select-read-args) "erc"
-;;;;;;  "erc.el" (20069 36653))
+;;;;;;  "erc.el" (20579 6695))
 ;;; Generated autoloads from erc.el
 
 (autoload 'erc-select-read-args "erc" "\
@@ -46,32 +46,32 @@ Otherwise, connect to HOST:PORT as USER and /join CHANNEL.
 
 ;;;***
 
-;;;### (autoloads nil "erc-autoaway" "erc-autoaway.el" (20069 36653))
+;;;### (autoloads nil "erc-autoaway" "erc-autoaway.el" (20579 6695))
 ;;; Generated autoloads from erc-autoaway.el
  (autoload 'erc-autoaway-mode "erc-autoaway")
 
 ;;;***
 
-;;;### (autoloads nil "erc-bbdb" "erc-bbdb.el" (20069 36653))
+;;;### (autoloads nil "erc-bbdb" "erc-bbdb.el" (20579 6695))
 ;;; Generated autoloads from erc-bbdb.el
  (autoload 'erc-bbdb-mode "erc-bbdb")
 
 ;;;***
 
-;;;### (autoloads nil "erc-button" "erc-button.el" (20069 36652))
+;;;### (autoloads nil "erc-button" "erc-button.el" (20579 6694))
 ;;; Generated autoloads from erc-button.el
  (autoload 'erc-button-mode "erc-button" nil t)
 
 ;;;***
 
-;;;### (autoloads nil "erc-capab" "erc-capab.el" (20069 36652))
+;;;### (autoloads nil "erc-capab" "erc-capab.el" (20579 6694))
 ;;; Generated autoloads from erc-capab.el
  (autoload 'erc-capab-identify-mode "erc-capab" nil t)
 
 ;;;***
 
 ;;;### (autoloads (erc-chess-ctcp-query-handler erc-cmd-CHESS) "erc-chess"
-;;;;;;  "erc-chess.el" (20069 36653))
+;;;;;;  "erc-chess.el" (20579 6695))
 ;;; Generated autoloads from erc-chess.el
 
 (defvar erc-ctcp-query-CHESS-hook '(erc-chess-ctcp-query-handler))
@@ -89,14 +89,14 @@ Not documented
 
 ;;;***
 
-;;;### (autoloads nil "erc-compat" "erc-compat.el" (20069 36652))
+;;;### (autoloads nil "erc-compat" "erc-compat.el" (20579 6694))
 ;;; Generated autoloads from erc-compat.el
  (autoload 'erc-define-minor-mode "erc-compat")
 
 ;;;***
 
 ;;;### (autoloads (erc-ctcp-query-DCC pcomplete/erc-mode/DCC erc-cmd-DCC)
-;;;;;;  "erc-dcc" "erc-dcc.el" (20069 36653))
+;;;;;;  "erc-dcc" "erc-dcc.el" (20579 6696))
 ;;; Generated autoloads from erc-dcc.el
  (autoload 'erc-dcc-mode "erc-dcc")
 
@@ -129,7 +129,7 @@ that subcommand.
 ;;;;;;  erc-ezb-add-session erc-ezb-end-of-session-list erc-ezb-init-session-list
 ;;;;;;  erc-ezb-identify erc-ezb-notice-autodetect erc-ezb-lookup-action
 ;;;;;;  erc-ezb-get-login erc-cmd-ezb) "erc-ezbounce" "erc-ezbounce.el"
-;;;;;;  (20069 36652))
+;;;;;;  (20579 6694))
 ;;; Generated autoloads from erc-ezbounce.el
 
 (autoload 'erc-cmd-ezb "erc-ezbounce" "\
@@ -191,7 +191,7 @@ Add EZBouncer convenience functions to ERC.
 
 ;;;***
 
-;;;### (autoloads (erc-fill) "erc-fill" "erc-fill.el" (20069 36653))
+;;;### (autoloads (erc-fill) "erc-fill" "erc-fill.el" (20579 6695))
 ;;; Generated autoloads from erc-fill.el
  (autoload 'erc-fill-mode "erc-fill" nil t)
 
@@ -203,15 +203,15 @@ You can put this on `erc-insert-modify-hook' and/or `erc-send-modify-hook'.
 
 ;;;***
 
-;;;### (autoloads nil "erc-hecomplete" "erc-hecomplete.el" (20069
-;;;;;;  36653))
+;;;### (autoloads nil "erc-hecomplete" "erc-hecomplete.el" (20579
+;;;;;;  6695))
 ;;; Generated autoloads from erc-hecomplete.el
  (autoload 'erc-hecomplete-mode "erc-hecomplete" nil t)
 
 ;;;***
 
 ;;;### (autoloads (erc-identd-stop erc-identd-start) "erc-identd"
-;;;;;;  "erc-identd.el" (20069 36651))
+;;;;;;  "erc-identd.el" (20579 6694))
 ;;; Generated autoloads from erc-identd.el
  (autoload 'erc-identd-mode "erc-identd")
 
@@ -233,7 +233,7 @@ Not documented
 ;;;***
 
 ;;;### (autoloads (erc-create-imenu-index) "erc-imenu" "erc-imenu.el"
-;;;;;;  (20069 36651))
+;;;;;;  (20579 6694))
 ;;; Generated autoloads from erc-imenu.el
 
 (autoload 'erc-create-imenu-index "erc-imenu" "\
@@ -243,20 +243,20 @@ Not documented
 
 ;;;***
 
-;;;### (autoloads nil "erc-join" "erc-join.el" (20069 36652))
+;;;### (autoloads nil "erc-join" "erc-join.el" (20579 6695))
 ;;; Generated autoloads from erc-join.el
  (autoload 'erc-autojoin-mode "erc-join" nil t)
 
 ;;;***
 
-;;;### (autoloads nil "erc-list" "erc-list.el" (20069 36651))
+;;;### (autoloads nil "erc-list" "erc-list.el" (20579 6693))
 ;;; Generated autoloads from erc-list.el
  (autoload 'erc-list-mode "erc-list")
 
 ;;;***
 
 ;;;### (autoloads (erc-chanlist erc-list-channels) "erc-list-old"
-;;;;;;  "erc-list-old.el" (20069 36653))
+;;;;;;  "erc-list-old.el" (20579 6695))
 ;;; Generated autoloads from erc-list-old.el
  (autoload 'erc-list-old-mode "erc-list-old")
 
@@ -277,7 +277,7 @@ to RFC and send the LIST header (#321) at start of list transmission.
 ;;;***
 
 ;;;### (autoloads (erc-save-buffer-in-logs erc-logging-enabled) "erc-log"
-;;;;;;  "erc-log.el" (20069 36653))
+;;;;;;  "erc-log.el" (20579 6695))
 ;;; Generated autoloads from erc-log.el
  (autoload 'erc-log-mode "erc-log" nil t)
 
@@ -308,8 +308,8 @@ You can save every individual message by putting this function on
 
 ;;;### (autoloads (erc-delete-dangerous-host erc-add-dangerous-host
 ;;;;;;  erc-delete-keyword erc-add-keyword erc-delete-fool erc-add-fool
-;;;;;;  erc-delete-pal erc-add-pal) "erc-match" "erc-match.el" (20069
-;;;;;;  36651))
+;;;;;;  erc-delete-pal erc-add-pal) "erc-match" "erc-match.el" (20579
+;;;;;;  6694))
 ;;; Generated autoloads from erc-match.el
  (autoload 'erc-match-mode "erc-match")
 
@@ -355,14 +355,14 @@ Delete dangerous-host interactively to `erc-dangerous-hosts'.
 
 ;;;***
 
-;;;### (autoloads nil "erc-menu" "erc-menu.el" (20069 36652))
+;;;### (autoloads nil "erc-menu" "erc-menu.el" (20579 6695))
 ;;; Generated autoloads from erc-menu.el
  (autoload 'erc-menu-mode "erc-menu" nil t)
 
 ;;;***
 
 ;;;### (autoloads (erc-cmd-WHOLEFT) "erc-netsplit" "erc-netsplit.el"
-;;;;;;  (20069 36652))
+;;;;;;  (20579 6695))
 ;;; Generated autoloads from erc-netsplit.el
  (autoload 'erc-netsplit-mode "erc-netsplit")
 
@@ -374,7 +374,7 @@ Show who's gone.
 ;;;***
 
 ;;;### (autoloads (erc-server-select erc-determine-network) "erc-networks"
-;;;;;;  "erc-networks.el" (20069 36653))
+;;;;;;  "erc-networks.el" (20579 6695))
 ;;; Generated autoloads from erc-networks.el
 
 (autoload 'erc-determine-network "erc-networks" "\
@@ -392,7 +392,7 @@ Interactively select a server to connect to using `erc-server-alist'.
 ;;;***
 
 ;;;### (autoloads (pcomplete/erc-mode/NOTIFY erc-cmd-NOTIFY) "erc-notify"
-;;;;;;  "erc-notify.el" (20069 36652))
+;;;;;;  "erc-notify.el" (20579 6695))
 ;;; Generated autoloads from erc-notify.el
  (autoload 'erc-notify-mode "erc-notify" nil t)
 
@@ -410,32 +410,32 @@ Not documented
 
 ;;;***
 
-;;;### (autoloads nil "erc-page" "erc-page.el" (20069 36651))
+;;;### (autoloads nil "erc-page" "erc-page.el" (20579 6694))
 ;;; Generated autoloads from erc-page.el
  (autoload 'erc-page-mode "erc-page")
 
 ;;;***
 
-;;;### (autoloads nil "erc-pcomplete" "erc-pcomplete.el" (20069 36651))
+;;;### (autoloads nil "erc-pcomplete" "erc-pcomplete.el" (20579 6694))
 ;;; Generated autoloads from erc-pcomplete.el
  (autoload 'erc-completion-mode "erc-pcomplete" nil t)
 
 ;;;***
 
-;;;### (autoloads nil "erc-replace" "erc-replace.el" (20069 36652))
+;;;### (autoloads nil "erc-replace" "erc-replace.el" (20579 6695))
 ;;; Generated autoloads from erc-replace.el
  (autoload 'erc-replace-mode "erc-replace")
 
 ;;;***
 
-;;;### (autoloads nil "erc-ring" "erc-ring.el" (20069 36653))
+;;;### (autoloads nil "erc-ring" "erc-ring.el" (20579 6695))
 ;;; Generated autoloads from erc-ring.el
  (autoload 'erc-ring-mode "erc-ring" nil t)
 
 ;;;***
 
 ;;;### (autoloads (erc-nickserv-identify erc-nickserv-identify-mode)
-;;;;;;  "erc-services" "erc-services.el" (20069 36651))
+;;;;;;  "erc-services" "erc-services.el" (20579 6694))
 ;;; Generated autoloads from erc-services.el
  (autoload 'erc-services-mode "erc-services" nil t)
 
@@ -452,14 +452,14 @@ When called interactively, read the password using `read-passwd'.
 
 ;;;***
 
-;;;### (autoloads nil "erc-sound" "erc-sound.el" (20069 36653))
+;;;### (autoloads nil "erc-sound" "erc-sound.el" (20579 6695))
 ;;; Generated autoloads from erc-sound.el
  (autoload 'erc-sound-mode "erc-sound")
 
 ;;;***
 
 ;;;### (autoloads (erc-speedbar-browser) "erc-speedbar" "erc-speedbar.el"
-;;;;;;  (20069 36653))
+;;;;;;  (20579 6695))
 ;;; Generated autoloads from erc-speedbar.el
 
 (autoload 'erc-speedbar-browser "erc-speedbar" "\
@@ -470,20 +470,20 @@ This will add a speedbar major display mode.
 
 ;;;***
 
-;;;### (autoloads nil "erc-spelling" "erc-spelling.el" (20069 36651))
+;;;### (autoloads nil "erc-spelling" "erc-spelling.el" (20579 6694))
 ;;; Generated autoloads from erc-spelling.el
  (autoload 'erc-spelling-mode "erc-spelling" nil t)
 
 ;;;***
 
-;;;### (autoloads nil "erc-stamp" "erc-stamp.el" (20069 36653))
+;;;### (autoloads nil "erc-stamp" "erc-stamp.el" (20579 6695))
 ;;; Generated autoloads from erc-stamp.el
  (autoload 'erc-timestamp-mode "erc-stamp" nil t)
 
 ;;;***
 
 ;;;### (autoloads (erc-track-minor-mode) "erc-track" "erc-track.el"
-;;;;;;  (20069 36651))
+;;;;;;  (20579 6694))
 ;;; Generated autoloads from erc-track.el
 
 (defvar erc-track-minor-mode nil "\
@@ -506,7 +506,7 @@ module, otherwise the keybindings will not do anything useful.
 ;;;***
 
 ;;;### (autoloads (erc-truncate-buffer erc-truncate-buffer-to-size)
-;;;;;;  "erc-truncate" "erc-truncate.el" (20069 36652))
+;;;;;;  "erc-truncate" "erc-truncate.el" (20579 6695))
 ;;; Generated autoloads from erc-truncate.el
  (autoload 'erc-truncate-mode "erc-truncate" nil t)
 
@@ -525,8 +525,8 @@ Meant to be used in hooks, like `erc-insert-post-hook'.
 
 ;;;***
 
-;;;### (autoloads (erc-xdcc-add-file) "erc-xdcc" "erc-xdcc.el" (20069
-;;;;;;  36653))
+;;;### (autoloads (erc-xdcc-add-file) "erc-xdcc" "erc-xdcc.el" (20579
+;;;;;;  6695))
 ;;; Generated autoloads from erc-xdcc.el
  (autoload 'erc-xdcc-mode "erc-xdcc")
 
@@ -539,7 +539,7 @@ Add a file to `erc-xdcc-files'.
 
 ;;;### (autoloads nil nil ("erc-backend.el" "erc-goodies.el" "erc-ibuffer.el"
 ;;;;;;  "erc-lang.el" "erc-maint.el" "erc-nicklist.el" "erc-pkg.el"
-;;;;;;  "erc-speak.el" "erc-viper.el") (20069 36653 993457))
+;;;;;;  "erc-speak.el" "erc-viper.el") (20579 6696 93781))
 
 ;;;***
 

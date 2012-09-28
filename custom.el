@@ -85,6 +85,10 @@
 (add-hook 'shell-mode-hook
           'ansi-color-for-comint-mode-on)
 
+;; Customize HTML mode
+(add-hook 'html-mode-hook 'turn-off-flyspell)
+(add-hook 'html-mode-hook 'turn-off-auto-fill)
+
 ;;http://www.emacswiki.org/cgi-bin/emacs-en/LoadPath
 ;;     (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
 ;;         (let* ((my-lisp-dir "~/elisp/")
@@ -199,4 +203,4 @@ named after the string \"*shell*\" using `generate-new-buffer-name'."
 (require 'bar-cursor)
 (bar-cursor-mode 1)
 
-;;(server-start)
+(server-start)
