@@ -65,6 +65,8 @@
 
 (global-set-key [f6] 'bury-buffer)
 
+(global-set-key [f7] 'blank-mode)
+
 (global-set-key [f8] 'comint-previous-prompt)
 
 (global-set-key [f9] 'undo)
@@ -84,6 +86,10 @@
 ;;; Fix junk characters in shell-mode
 (add-hook 'shell-mode-hook
           'ansi-color-for-comint-mode-on)
+
+;; Customize HTML mode
+(add-hook 'html-mode-hook 'turn-off-flyspell)
+(add-hook 'html-mode-hook 'turn-off-auto-fill)
 
 ;;http://www.emacswiki.org/cgi-bin/emacs-en/LoadPath
 ;;     (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
@@ -131,7 +137,7 @@
 
 
 ;; http://www.emacswiki.org/emacs/ShellMode#toc3
-(global-set-key [f7] 'alt-shell-dwim)
+;; (global-set-key [f7] 'alt-shell-dwim)
 
 (defun alt-shell-dwim (arg)
   "Run an inferior shell like `shell'. If an inferior shell as its I/O
