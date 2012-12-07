@@ -61,7 +61,6 @@
 
 (setq auto-mode-alist (cons '("\\.psql$" . sql-mode) auto-mode-alist))
 
-;; Add F5 to refresh current buffer
 (global-set-key [f5] 'revert-buffer)
 
 (global-set-key [f6] 'bury-buffer)
@@ -70,12 +69,15 @@
 
 (global-set-key [f9] 'undo)
 
-;; Add F12 to toggle line wrap
 (global-set-key [f12] 'toggle-truncate-lines)
 
 (global-set-key (kbd "C--") 'back-window)
 
 (global-set-key (kbd "C-=") 'other-window)
+
+(global-set-key (kbd "M-p") 'previous-buffer)
+
+(global-set-key (kbd "M-n") 'next-buffer)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 

@@ -1,6 +1,6 @@
 ;;; init.el --- Where all the magic begins
 ;;
-;; Part of the Emacs Starter Kit
+;; Part of the Emacs Starter Kit,
 ;;
 ;; This is the first thing to get loaded.
 ;;
@@ -31,6 +31,9 @@
 (setq custom-file (concat dotfiles-dir "custom.el"))
 
 (require 'package)
+(add-to-list 'package-archives
+    '("marmalade" .
+      "http://marmalade-repo.org/packages/"))
 (package-initialize)
 (require 'starter-kit-elpa)
 
