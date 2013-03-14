@@ -59,6 +59,7 @@
 (setq org-log-done 'note)
 ;; END ORG MODE
 
+;; Add .psql to SQL mode
 (setq auto-mode-alist (cons '("\\.psql$" . sql-mode) auto-mode-alist))
 
 (global-set-key [f5] 'revert-buffer)

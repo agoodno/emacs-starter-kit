@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads nil nil ("clojure-project-mode-pkg.el" "clojure-project-mode.el")
-;;;;;;  (20527 58319 583785))
+;;;;;;  (20801 9796 172006))
 
 ;;;***
 
