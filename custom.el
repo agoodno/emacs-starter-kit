@@ -44,7 +44,10 @@
 (setq-default tab-stop-list (quote (2 4 6 8 10)))
 
 ;;Permanently, force TAB to insert just one TAB (in every mode):
-(global-set-key (kbd "TAB") 'tab-to-tab-stop);
+(global-set-key (kbd "TAB") 'tab-to-tab-stop)
+
+;;Opens browser to url
+(global-set-key (kbd "C-x C-u") 'browse-url)
 
 (autoload 'blank-mode "blank-mode" "Blank Mode." t)
 

@@ -1,7 +1,15 @@
 ;; Start ERC config
+(setq erc-autojoin-channels-alist '(("wicourts.gov" "#ccap3" "#cc")))
+
+(setq erc-user-full-name "Andrew Goodnough")
+(setq erc-email-userid "andrew.goodnough@wicourts.gov")
+
 (erc :server "irc.wicourts.gov" :port 6667 :nick "agoodno")
-(setq erc-autojoin-channels-alist
-  '(("irc.wicourts.gov" "#ccap3" "#cc" "#release")))
+
+(setq erc-save-buffer-on-part nil
+      erc-save-queries-on-quit nil
+      erc-log-write-after-send t
+      erc-log-write-after-insert t)
 
 (setq erc-autoaway-idle-seconds 300)
 (setq erc-auto-set-away t)
@@ -73,6 +81,9 @@ matches a regexp in `erc-keywords'."
       nil)))
 (add-hook 'erc-server-PRIVMSG-functions 'my-erc-page-me-PRIVMSG)
 
+;(eval-after-load 'erc-track-mode
+;  '(define-key erc-mode-map (kbd "C-x C-u") 'browse-url))
+
 ;; End ERC config
 
 ;; custom for agoodno
@@ -88,4 +99,4 @@ matches a regexp in `erc-keywords'."
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "Liberation Mono")))))
+ '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 98 :width normal :foundry "unknown" :family "Ubuntu Mono")))))
